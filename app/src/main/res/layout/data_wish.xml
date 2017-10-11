@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/datadisplayer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+</LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:text="WishList"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/Edt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wish Name"
+        />
+    <EditText
+        android:id="@+id/Edt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        />
+    <EditText
+        android:id="@+id/Edt3"
+        android:hint="Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@color/colorAccent"
+        android:onClick="ViewCamera"
+        android:layout_gravity="center"
+        android:id="@+id/imagepic"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:onClick="SubmitWish"
+        />
+
+
+
+
+
+</LinearLayout>
